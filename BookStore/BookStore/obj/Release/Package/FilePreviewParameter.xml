@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="BookStorSetyle" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Jack\\Documents\\Visual\ Studio\ 2015\\Projects\\MVCProject\\BookStore\\BookStore\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Jack\\Documents\\Visual\ Studio\ 2015\\Projects\\MVCProject\\BookStore\\BookStore\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+</parameters>
