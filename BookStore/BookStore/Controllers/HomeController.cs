@@ -21,5 +21,26 @@ namespace BookStore.Views.Home
             ViewBag.Books = books;
             return View();
         }
+
+        [HttpGet]
+        public ActionResult Buy(int id)
+        {
+            ViewBag.BookId = id;
+            return View();
+        }
+
+        [HttpPost]
+        public string Buy(Purchase purchase)
+        {
+            purchase.Date = DateTime.Now;
+
+            // Add the purchase information in the database
+            db.Purchases.Add(purchase);
+
+            // Stored in the database changes
+            db.SaveChanges();
+            return purchase.Person + ", thank you for your purchase";
+        }
+        
     }
 }

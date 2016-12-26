@@ -1,2 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters />
+<parameters>
+  <parameter name="BookContext-Web.config Connection String" description="BookContext Строка подключения в web.config, используемая приложением для доступа к базе данных." defaultValue="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='|DataDirectory|\Bookstore.mdf';Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Jack\\Documents\\Visual\ Studio\ 2015\\Projects\\MVCProject\\Store\\BookStore\\BookStore\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BookContext']/@connectionString" />
+  </parameter>
+</parameters>
