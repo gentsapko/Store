@@ -76,3 +76,5 @@ C:\Users\Jack\Documents\Visual Studio 2015\Projects\MVCProject\Store\BookStore\B
 C:\Users\Jack\Documents\Visual Studio 2015\Projects\MVCProject\Store\BookStore\BookStore.Tests\obj\Debug\BookStore.Tests.csprojResolveAssemblyReference.cache
 C:\Users\Jack\Documents\Visual Studio 2015\Projects\MVCProject\Store\BookStore\BookStore.Tests\obj\Debug\BookStore.Tests.dll
 C:\Users\Jack\Documents\Visual Studio 2015\Projects\MVCProject\Store\BookStore\BookStore.Tests\obj\Debug\BookStore.Tests.pdb
+C:\Users\Jack\Documents\Visual Studio 2015\Projects\MVCProject\Store\BookStore\BookStore.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Jack\Documents\Visual Studio 2015\Projects\MVCProject\Store\BookStore\BookStore.Tests\bin\Debug\EntityFramework.xml

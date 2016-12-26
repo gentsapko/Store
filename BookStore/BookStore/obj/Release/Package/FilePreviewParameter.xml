@@ -1,7 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="IIS Web Application Name" description="" value="BookStorSetyle" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Jack\\Documents\\Visual\ Studio\ 2015\\Projects\\MVCProject\\BookStore\\BookStore\\obj\\Release\\Package\\PackageTmp$" />
-    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Jack\\Documents\\Visual\ Studio\ 2015\\Projects\\MVCProject\\BookStore\\BookStore\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Jack\\Documents\\Visual\ Studio\ 2015\\Projects\\MVCProject\\Store\\BookStore\\BookStore\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Jack\\Documents\\Visual\ Studio\ 2015\\Projects\\MVCProject\\Store\\BookStore\\BookStore\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="BookContext-Web.config Connection String" description="" value="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=&quot;C:\Users\Jack\Documents\Visual Studio 2015\Projects\MVCProject\Store\BookStore\BookStore\App_Data\Bookstore.mdf&quot;;Integrated Security=True;Connect Timeout=30" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Jack\\Documents\\Visual\ Studio\ 2015\\Projects\\MVCProject\\Store\\BookStore\\BookStore\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BookContext']/@connectionString" />
   </parameter>
 </parameters>
