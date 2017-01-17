@@ -32,7 +32,7 @@ namespace BookStore.Views.Home
         [HttpPost]
         public string Buy(Purchase purchase)
         {
-            purchase.Date = DateTime.Now;
+            purchase.Date = getToday();
 
             // Add the purchase information in the database
             db.Purchases.Add(purchase);
@@ -41,6 +41,11 @@ namespace BookStore.Views.Home
             db.SaveChanges();
             return purchase.Person + ", thank you for your purchase";
         }
-        
+
+        private DateTime getToday()
+        {
+            return DateTime.Now;
+        }
+
     }
 }
